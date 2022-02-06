@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles</title>
+</head>
+<body>
+    <h1>{{heroe.nombre}}</h1>
+    <ul>
+        <li><strong>{{heroe.nacionalidad}}</strong></li>
+        {% if heroe.nacionalidad == 'USA' %}
+            <li>"Es un heroe gringo"</li>
+        {% else %}
+            <li>Es un heroe Latino</li>
+        {% endif %}
+        <li><strong>{{heroe.poderes}}</strong></li>
+        <li><strong>{{heroe.fecha}}</strong></li>
+        <div>
+            <img src="{{heroe.picture}}" alt="heroe">
+        </div>
+    </ul>
+
+    <p><a href="{{url_for('index')}}">INICIO</a> </p>
+
+</body>
+</html>
