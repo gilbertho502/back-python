@@ -6,3 +6,6 @@ https://dev.mysql.com/downloads/windows/installer/8.0.
 
 
 https://youtube.com/playlist?list=PL5_Tvc8rcj7-UcBHH8ap8MAvpfuGNl8fQ
+
+flask
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/
