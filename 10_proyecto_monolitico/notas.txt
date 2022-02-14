@@ -1,0 +1,14 @@
+fron-end: 
+    bootstrap
+    css
+    html
+    js
+dentro de templates.
+
+Los archivos estaticos para flask son:
+las hojas de estilos = css
+imagenes
+scripts de JS
+
+
+back-end:
