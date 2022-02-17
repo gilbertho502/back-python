@@ -1,0 +1,5 @@
+librerias importantes 
+pip install flask
+pip install SQLAlchemy
+pip install psycopg2
+pip install flask-sqlalchemy
