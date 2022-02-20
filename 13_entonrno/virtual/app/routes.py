@@ -62,7 +62,7 @@ def add_grupo():
     #todo la tablas
     codgrupo = request.json['codgrupo']
     nombre_grupo=request.json['nombre_grupo']
-    descripcion_grupo = reques.json['descripcion_grupo']
+    descripcion_grupo = request.json['descripcion_grupo']
     estado=request.json['estado']
     
     new_grupo = Grupos(codgrupo, nombre_grupo,descripcion_grupo,estado)
